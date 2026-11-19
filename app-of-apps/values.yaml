@@ -1,5 +1,5 @@
 gitops:
-  repoURL: https://github.com/redhat-ads-tech/ocp-app-platform-demo-helm.git
+  repoURL: https://github.com/akubicharm/ocp-app-platform-demo-helm.git
   targetRevision: main
 
 argocd:
@@ -13,7 +13,7 @@ catalogSource:
   name: redhat-operators-snapshot
   namespace: openshift-marketplace
   image: quay.io/rhpds/olm_snapshot_redhat_catalog
-  tag: v4.21_2026_05_25
+  tag: v4.22_2026_11_16
   displayName: "Red Hat Operators (Snapshot)"
   publisher: "Red Hat Demo Platform"
   grpcPodConfig:
