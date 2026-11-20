@@ -1,0 +1,4 @@
+templates/orchestrator-workflows.yaml
+templates/web-terminal.yaml
+templates/service-mesh.yaml
+templates/ztunnel-healer.yaml
