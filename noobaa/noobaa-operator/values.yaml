@@ -5,9 +5,9 @@ namespace: ""
 
 noobaa:
   subscription:
-    channel: stable-4.16
+    channel: stable-4.22
     installPlanApproval: Automatic
-    name: mcg-operator
+    name: odf-operator
     source: redhat-operators
     sourceNamespace: openshift-marketplace
 
