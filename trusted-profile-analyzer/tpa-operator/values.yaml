@@ -1,7 +1,7 @@
 nameOverride: ""
 
 name: rhtpa-operator
-namespace: openshift-operators
+namespace: ""
 
 subscription:
   channel: stable-v3
@@ -14,5 +14,3 @@ argocd:
   enabled: true
   operator:
     syncwave: "2"
-  operatorgroup:
-    syncwave: "1"
