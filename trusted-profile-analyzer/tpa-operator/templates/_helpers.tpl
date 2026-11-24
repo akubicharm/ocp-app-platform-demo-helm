@@ -86,3 +86,18 @@ argocd.argoproj.io/sync-wave: "{{ .Values.argocd.operator.syncwave }}"
 {{- "{}" }}
 {{- end }}
 {{- end }}
+
+{{/*
+ArgoCD Syncwave
+*/}}
+{{- define "rhtpa-operatorgroup.argocd-syncwave" -}}
+{{- if .Values.argocd }}
+{{- if and (.Values.argocd.operatorgroup.syncwave) (.Values.argocd.enabled) -}}
+argocd.argoproj.io/sync-wave: "{{ .Values.argocd.operatorgroup.syncwave }}"
+{{- else }}
+{{- "{}" }}
+{{- end }}
+{{- else }}
+{{- "{}" }}
+{{- end }}
+{{- end }}
