@@ -23,4 +23,4 @@ ingress:
 
 argocd:
   enabled: true
-  syncwave: "-1"
+  syncwave: "-2"
