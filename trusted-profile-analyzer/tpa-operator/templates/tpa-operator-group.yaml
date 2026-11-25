@@ -5,3 +5,5 @@ metadata:
   namespace: {{ .Values.namespace }}
 spec:
   upgradeStrategy: Default
+  targetNamespaces:
+    - {{ .Values.namespace }}

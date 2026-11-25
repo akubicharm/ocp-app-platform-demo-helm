@@ -4,7 +4,7 @@ fullnameOverride: ""
 replicaCount: 1
 
 image:
-  repository: registry.redhat.io/rhel9/postgresql-16
+  repository: image-registry.openshift-image-registry.svc:5000/openshift/postgresql 
   pullPolicy: IfNotPresent
   tag: "1"
 
