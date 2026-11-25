@@ -6,7 +6,7 @@ replicaCount: 1
 image:
   repository: image-registry.openshift-image-registry.svc:5000/openshift/postgresql
   pullPolicy: IfNotPresent
-  tag: "1"
+  tag: "latest"
 
 podSecurityContext: 
   runAsNonRoot: true
